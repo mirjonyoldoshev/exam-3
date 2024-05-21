@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Salon</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#">Avtomabil qo'shish</a>
+                <a href="./pages/search.html">Avtomabil qidirish</a>
+                <a href="./pages/view.html">Avtomabil ko'rish</a>
+                <a href="./pages/sort.html">Avtomabil tartiblash</a>
+            </nav>
+        </div>
+    </header>    
+
+    <main>
+        <section>
+            <div class="container">
+                <div class="form-wrapper">
+                    <form id="addCar">
+                        <label>
+                            <input type="text" placeholder="Enter your Auto Model" required>
+                        </label>
+                        <label>
+                            <input type="text" placeholder="Enter your Auto name" required>
+                        </label>
+                        <label>
+                            <input type="number" placeholder="Enter your Auto year" min="2012" max="2024" required>
+                        </label>
+                        <label>
+                            <input type="text" placeholder="Enter your Auto color" required>
+                        </label>
+                        <label>
+                            <input type="number" placeholder="Enter your Auto stock" min="1" max="1000" required>
+                        </label>
+                        <label>
+                            <input type="number" placeholder="Enter your Auto price" min="10000" max="1000000" required>
+                        </label>
+                        <div>
+                            <button type="submit">Submit</button>
+                            <button type="reset">Reset</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./app.js"></script>
+    
+</body>
+</html>
